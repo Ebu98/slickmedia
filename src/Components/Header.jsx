@@ -1,10 +1,10 @@
 import React from "react";
 import "./Body.css"
 
-const Header = (props) => {
+const Header = ({logo}) => {
   return (
     <header className="App-header">
-      <h2>{props.text}</h2>
+      <h3><img src={logo} alt=""/></h3>
     </header>
   );
 };

@@ -6,13 +6,26 @@
   position: fixed;
   width: 100%;
   height: 100px;
-  
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 0vmin);
   color: white;
   padding: 20px;
   cursor: pointer;
 }
+.image-container p {
+  position: absolute;
+  width: 490px;
+  height: 282px;
+  left: 77px;
+  top: 147px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
 
+  color: white;
+}
 .spinner {
   height: 80px;
   margin: auto;
@@ -33,7 +46,10 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+.movies img {
+  border-radius:12px;
+  object-fit: cover;
+}
 .App-header h2 {
   margin: 0;
 }
@@ -49,7 +65,7 @@
 }
 
 .movie {
-  padding: 5px 25px 10px 25px;
+  padding: 5px 10px 10px 39px;
   max-width: 25%;
 }
 
@@ -64,7 +80,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
+  margin: 98px;
 }
 
 input[type="submit"] {
