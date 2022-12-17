@@ -4,7 +4,10 @@
 .App-header {
   background: #292929;
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
+  width: 1440px;
+  /* max-width: 1440px; */
+  z-index: 1;
   height: 100px;
   font-size: calc(10px + 0vmin);
   color: white;
