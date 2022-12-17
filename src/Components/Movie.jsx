@@ -12,7 +12,10 @@ const Movie = ({ movie }) => {
       <h2>{movie.Title}</h2>
       <div>
         <img
-          width="200"
+          width="280"
+          height= "280px"
+          object-fit="contain"
+          border-radius= "12px"
           alt={`The movie titled: ${movie.Title}`}
           src={poster}
         />

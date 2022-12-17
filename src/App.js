@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Components/Header";
 import Movie from "./Components/Movie";
 import Search from "./Components/Search";
-import {ReactComponent as Image }from "../src/assets/Image/background.svg"
+import Image from "../src/assets/Image/background.svg"
 import './Components/Body.css'
 
 
@@ -36,11 +36,12 @@ const App = () => {
     return (
      <div className="App">
       <Header text="MOVIE SEARCH" />
-      <Search search={search} />
-      <div>
-        <Image/>
-      <p className="App-intro">Sharing a few of our favourite movies</p>
+      
+      <div className="image-container">
+        <img src={Image} alt="" maxWidth="1440px" width=" 100%"  />
+      <p className="App-intro">Watch something incredible.</p>
       </div>
+      <Search search={search} />
       <div className="movies">
         {loading && !errorMessage ? (
          <span>loading...</span>
