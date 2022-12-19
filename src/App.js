@@ -7,8 +7,6 @@ import Logo from "../src/assets/Image/logo.svg"
 import './Components/Body.css'
 
 
-// const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b"; 
-
 const App = () => {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
@@ -39,8 +37,8 @@ const App = () => {
       <Header logo={Logo} />
       
       <div className="image-container">
-        <img src={Image} alt="" maxWidth="1440px" width=" 100%" position="absolute" />
-      <p className="App-intro">Watch something incredible.</p>
+        <img src={Image} alt="" />
+      <p className="App-intro">Watch <br/>something incredible.</p>
       </div>
       <Search search={search} />
       <div className="movies">
