@@ -89,7 +89,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 98px;
+  margin: 50px;
 }
 
 input[type="submit"] {
@@ -128,6 +128,10 @@ input[type="submit"]:hover {
   .movie {
     max-width: 100%;
     margin: auto;
+  }
+  .image-container img {
+    margin-top:60px;
+    height: 100%;
   }
   
 }
