@@ -38,7 +38,7 @@ const App = () => {
       
       <div className="image-container">
         <img src={Image} alt="" />
-      <p className="App-intro">Watch <br/>something incredible.</p>
+      <p className="App-intro">Watch <br/>something <br/>incredible.</p>
       </div>
       <Search search={search} />
       <div className="movies">

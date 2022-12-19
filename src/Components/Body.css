@@ -1,11 +1,9 @@
-/* .App {
-  text-align: center;
-} */
+
 .App-header {
   background: #292929;
   position: fixed;
   width: 1440px;
-  max-width: 1440px;
+  max-width: 100%;
   z-index: 1;
   height: 100px;
 }
@@ -18,17 +16,16 @@
   border: 1px solid #ffffff;
   padding: 10px;
 }
+.image-container {
+  max-width: 100%;
+}
 .image-container img {
-  max-width: 1440px;
-  /* max-height: 550px; */
-  /* width: 100%; */
-  /* width: 1440px; */
-  position: relative;
+  height: auto;
+  object-position: center;
+  width: 100%;
 }
 .image-container p {
   position: absolute;
-  width: 490px;
-  height: 282px;
   left: 77px;
   top: 147px;
   font-family: "DM Sans";
@@ -43,10 +40,6 @@
   height: 80px;
   margin: auto;
 }
-
-/* .App-intro {
-  font-size: large;
-} */
 
 /* new css for movie component */
 
@@ -136,12 +129,5 @@ input[type="submit"]:hover {
     max-width: 100%;
     margin: auto;
   }
-  .image-container {
-    max-width: 100%;
-    /* height: 282px; */
-  }
-  .image-container img {
-    max-width: 100%;
-    /* height: 282px; */
-  }
+  
 }
